@@ -16,7 +16,7 @@ a:hover {
 
 .footerImg {
   max-width: 20px;
-  margin: 0 5px;
+  margin: 5px;
 }
 
 @media (min-width: 768px) {
