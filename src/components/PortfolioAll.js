@@ -60,7 +60,7 @@ class PortfolioAll extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="pb-5">
         <div className="portfolioContent row text-center">
           {this.renderItems()}
           { this.state.otherProjects ? <PortfolioOther /> : null }
