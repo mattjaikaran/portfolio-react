@@ -61,7 +61,7 @@ function Avon() {
             <li>React</li>
           </ul>
           <p className="mt-3">
-            <a href="https://angry-shirley-eca68e.netlify.com" target="_blank" rel="noopener noreferrer">User Registration React application (In Progress)</a>
+            <a href="https://avon-react.netlify.com" target="_blank" rel="noopener noreferrer">User Registration React application (In Progress)</a>
             <br />
             <a href="https://youravon.com/home/dynamic-campaign-insider" target="_blank" rel="noopener noreferrer">Dynamic Campaign Insider</a>
             <br />
