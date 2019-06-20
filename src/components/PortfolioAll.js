@@ -8,34 +8,41 @@ class PortfolioAll extends Component {
     const items = [
       {
         itemNumber: 1,
+        title: 'Ecommerce',
+        imgSrc: 'https://firebasestorage.googleapis.com/v0/b/portfolio-react-239cd.appspot.com/o/ecommerce.png?alt=media&token=7edfd610-bfb0-4347-8fd9-bc23cc336803',
+        link: '/ecommerce',
+        style: 'img-fluid pb-2'
+      },
+      {
+        itemNumber: 2,
         title: 'Emaily',
         imgSrc: 'https://firebasestorage.googleapis.com/v0/b/portfolio-react-239cd.appspot.com/o/emaily.png?alt=media&token=cbdf9785-80a1-43ad-a957-1b65884730a8',
         link: '/emaily',
         style: 'img-fluid pb-2'
       },
       {
-        itemNumber: 2,
+        itemNumber: 3,
         title: 'DevConnector',
         imgSrc: 'https://firebasestorage.googleapis.com/v0/b/portfolio-react-239cd.appspot.com/o/dev-connector.png?alt=media&token=63ec3672-7c27-4ab6-85f8-f5a33b7f8562',
         link: '/dev-connector',
         style: 'img-fluid pb-2'
       },
       {
-        itemNumber: 3,
+        itemNumber: 4,
         title: 'City Casting',
         imgSrc: 'https://firebasestorage.googleapis.com/v0/b/portfolio-react-239cd.appspot.com/o/city-casting.png?alt=media&token=51ad1377-48ce-4753-a121-c22455cf6e50',
         link: 'city-casting',
         style: 'img-fluid pb-2'
       },
       {
-        itemNumber: 4,
+        itemNumber: 5,
         title: 'SmartBrain',
         imgSrc: 'https://firebasestorage.googleapis.com/v0/b/portfolio-react-239cd.appspot.com/o/smart-brain.png?alt=media&token=8e835e6c-ef88-4968-be80-ee7ef731bb55',
         link: 'smart-brain',
         style: 'img-fluid pb-2'
       },
       {
-        itemNumber: 5,
+        itemNumber: 6,
         title: 'Avon',
         imgSrc: 'https://firebasestorage.googleapis.com/v0/b/portfolio-react-239cd.appspot.com/o/avon-now-logo.svg?alt=media&token=9fc576e1-a7a4-4e25-a7fe-a80dc3781c0f',
         link: '/avon',

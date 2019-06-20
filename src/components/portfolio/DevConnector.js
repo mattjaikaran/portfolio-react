@@ -39,7 +39,7 @@ function DevConnector() {
         </div>
         <div className="col-md-5">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Social networking application built with MERN stack and Redux.
           </p>
           <p>Technologies -</p>
           <ul className="pl-4">

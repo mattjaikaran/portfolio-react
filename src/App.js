@@ -10,6 +10,7 @@ import PortfolioAll from './components/PortfolioAll'
 import PortfolioOther from './components/PortfolioOther'
 
 import DevConnector from './components/portfolio/DevConnector'
+import Ecommerce from './components/portfolio/Ecommerce'
 import Emaily from './components/portfolio/Emaily'
 import CityCasting from './components/portfolio/CityCasting'
 import SmartBrain from './components/portfolio/SmartBrain'
@@ -30,6 +31,7 @@ class App extends Component {
             <Route path='/about' component={About} />
             <Route path='/all' component={PortfolioAll} />
             <Route path='/other' component={PortfolioOther} />
+            <Route path='/ecommerce' component={Ecommerce} />
             <Route path='/dev-connector' component={DevConnector} />
             <Route path='/emaily' component={Emaily} />
             <Route path='/city-casting' component={CityCasting} />
