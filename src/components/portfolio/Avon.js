@@ -67,7 +67,7 @@ function Avon() {
             <br />
             <a href="https://youravon.com/home/dynamic-product-carousel-original" target="_blank" rel="noopener noreferrer">Carousel</a>
             <br />
-            <a href="https://youravon.com/home/dynamic-incentives-original" target="_blank" rel="noopener noreferrer">Incentives</a>
+            <a href="https://youravon.com/home/dynamic-incentives" target="_blank" rel="noopener noreferrer">Incentives</a>
             <br />
             <a href="https://github.com/mattjaikaran/avon-react" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
