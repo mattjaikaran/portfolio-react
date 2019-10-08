@@ -12,7 +12,7 @@ function SmartBrain() {
         <div className="col-md-7 text-center mb-3">
           <div id="gallery" className="carousel slide" data-interval="false" data-ride="carousel"> <ol className="carousel-indicators">
               <li data-target="#gallery" data-slide-to="0" className="active"></li>
-              {/* <li data-target="#gallery" data-slide-to="1"></li> 
+              {/* <li data-target="#gallery" data-slide-to="1"></li>
               <li data-target="#gallery" data-slide-to="2"></li>
               <li data-target="#gallery" data-slide-to="3"></li>
               <li data-target="#gallery" data-slide-to="4"></li>
@@ -60,11 +60,11 @@ function SmartBrain() {
             <li>Lorem</li> */}
           </ul>
           <p className="mt-3">
-            <a href="https://smart-brain-face-recognition.herokuapp.com/" target="_blank" rel="noopener noreferrer">Go to application</a>
+            <a className="portfolioLink" href="https://smart-brain-face-recognition.herokuapp.com/" target="_blank" rel="noopener noreferrer">Go to application</a>
             <br />
-            <a href="https://github.com/mattjaikaran/smart-brain-server" target="_blank" rel="noopener noreferrer">GitHub (Server)</a>
+            <a className="portfolioLink" href="https://github.com/mattjaikaran/smart-brain-server" target="_blank" rel="noopener noreferrer">GitHub (Server)</a>
             <br />
-            <a href="https://github.com/mattjaikaran/smart-brain-client" target="_blank" rel="noopener noreferrer">GitHub (Client)</a>
+            <a className="portfolioLink" href="https://github.com/mattjaikaran/smart-brain-client" target="_blank" rel="noopener noreferrer">GitHub (Client)</a>
           </p>
         </div>
       </div>

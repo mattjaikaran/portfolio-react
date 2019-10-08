@@ -63,13 +63,13 @@ function CityCasting() {
             <li>Deployed to Heroku</li>
           </ul>
           <p className="mt-3">
-            <a href="https://citycasting.herokuapp.com/" target="_blank" rel="noopener noreferrer">Go to invoicing application (In Progress)</a>
+            <a className="portfolioLink" href="https://citycasting.herokuapp.com/" target="_blank" rel="noopener noreferrer">Go to invoicing application (In Progress)</a>
             <br />
-            <a href="https://citycastingnyc.com/" target="_blank" rel="noopener noreferrer">Go to website</a>
+            <a className="portfolioLink" href="https://citycastingnyc.com/" target="_blank" rel="noopener noreferrer">Go to website</a>
             <br />
-            <a href="https://github.com/mattjaikaran/cc-client" target="_blank" rel="noopener noreferrer">GitHub (Client)</a>
+            <a className="portfolioLink" href="https://github.com/mattjaikaran/cc-client" target="_blank" rel="noopener noreferrer">GitHub (Client)</a>
             <br />
-            <a href="https://github.com/mattjaikaran/cc-api" target="_blank" rel="noopener noreferrer">GitHub (Server)</a>
+            <a className="portfolioLink" href="https://github.com/mattjaikaran/cc-api" target="_blank" rel="noopener noreferrer">GitHub (Server)</a>
           </p>
         </div>
       </div>

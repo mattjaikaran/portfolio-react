@@ -61,31 +61,31 @@ function Avon() {
             <li>React</li>
           </ul>
           <p className="mt-3">
-            <a href="https://avon-react.netlify.com" target="_blank" rel="noopener noreferrer">
+            <a className="portfolioLink" href="https://avon-react.netlify.com" target="_blank" rel="noopener noreferrer">
               User Registration React application (In Progress)
             </a>
             <br />
-            <a
+            <a className="portfolioLink"
             href="https://youravon.com/home/testing/dynamic-campaign-insider-original"
             target="_blank"
             rel="noopener noreferrer">
               Campaign Insider
             </a>
             <br />
-            <a
+            <a className="portfolioLink"
             href="https://youravon.com/home/testing/dynamic-product-carousel-original" target="_blank" rel="noopener noreferrer">
               Carousel
             </a>
             <br />
-            <a href="https://youravon.com/home/testing/dynamic-incentives" target="_blank" rel="noopener noreferrer">
+            <a className="portfolioLink" href="https://youravon.com/home/testing/dynamic-incentives" target="_blank" rel="noopener noreferrer">
               Incentives
             </a>
             <br />
-            <a href="https://youravon.com/home/testing/dynamic-a-spot-original" target="_blank" rel="noopener noreferrer">
+            <a className="portfolioLink" href="https://youravon.com/home/testing/dynamic-a-spot-original" target="_blank" rel="noopener noreferrer">
               Slider Component
             </a>
             <br />
-            <a href="https://github.com/mattjaikaran/avon-react" target="_blank" rel="noopener noreferrer">
+            <a className="portfolioLink" href="https://github.com/mattjaikaran/avon-react" target="_blank" rel="noopener noreferrer">
               GitHub
             </a>
           </p>

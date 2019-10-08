@@ -47,7 +47,7 @@ function Vespera() {
             <li>Bootstrap</li>
           </ul>
           <p className="mt-3">
-            <a href="http://vesperaofficial.com/" target="_blank" rel="noopener noreferrer">Go to website</a>
+            <a className="portfolioLink" href="http://vesperaofficial.com/" target="_blank" rel="noopener noreferrer">Go to website</a>
           </p>
         </div>
       </div>

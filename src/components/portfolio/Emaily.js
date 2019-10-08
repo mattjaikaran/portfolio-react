@@ -60,9 +60,9 @@ function Emaily() {
             <li>Heroku Deployment</li>
           </ul>
           <p className="mt-3">
-            <a href="https://stark-wildwood-20054.herokuapp.com/" target="_blank" rel="noopener noreferrer">Go to application</a>
+            <a className="portfolioLink" href="https://stark-wildwood-20054.herokuapp.com/" target="_blank" rel="noopener noreferrer">Go to application</a>
             <br />
-            <a href="https://github.com/mattjaikaran/emaily" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a className="portfolioLink" href="https://github.com/mattjaikaran/emaily" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
         </div>
       </div>

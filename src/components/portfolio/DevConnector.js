@@ -52,9 +52,9 @@ function DevConnector() {
             <li>Deployed to Heroku</li>
           </ul>
           <p className="mt-3">
-            <a href="https://murmuring-caverns-47901.herokuapp.com/" target="_blank" rel="noopener noreferrer">Go to application</a>
+            <a className="portfolioLink" href="https://murmuring-caverns-47901.herokuapp.com/" target="_blank" rel="noopener noreferrer">Go to application</a>
             <br />
-            <a href="https://github.com/mattjaikaran/devconnector-mern" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a className="portfolioLink" href="https://github.com/mattjaikaran/devconnector-mern" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
         </div>
       </div>

@@ -59,7 +59,7 @@ function VidJot() {
           <p className="mt-3">
             <a href="https://protected-garden-20878.herokuapp.com/" target="_blank" rel="noopener noreferrer">Go to application</a>
             <br />
-            <a href="https://github.com/mattjaikaran/vidjot" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a className="portfolioLink" href="https://github.com/mattjaikaran/vidjot" target="_blank" rel="noopener noreferrer">GitHub</a>
           </p>
         </div>
       </div>
