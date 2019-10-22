@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import Arrow from '../Arrow'
 
 const PortfolioItem = () => {
@@ -50,7 +50,6 @@ const PortfolioItem = () => {
       },
     ]
   }
-  <br />
   return (
     <div className="mt-5">
       <div className="text-center">
@@ -61,6 +60,13 @@ const PortfolioItem = () => {
         <div className="col-md-7 text-center mb-3">
           <div id="gallery" className="carousel slide" data-interval="false" data-ride="carousel">
             <ol className="carousel-indicators">
+              {info.carouselImg.map((img, index) => (
+                <li key={index}
+                  data-target="#gallery"
+                  data-slide-to={index}
+                  className={index === 0 ? 'active' : null}
+                  />
+              ))}
               <li data-target="#gallery" data-slide-to="0" className="active"></li>
               <li data-target="#gallery" data-slide-to="1"></li>
               <li data-target="#gallery" data-slide-to="2"></li>
@@ -103,10 +109,12 @@ const PortfolioItem = () => {
           <p className="mt-3">
             {info.links.map((link) => {
               return (
-                <a className="portfolioLink" href={`${link.linkTitle}`} target="_blank" rel="noopener noreferrer">
-                  {link.linkTitle}
-                </a>
-                <br />
+                <Fragment>
+                  <a className="portfolioLink" href={`${link.linkTitle}`} target="_blank" rel="noopener noreferrer">
+                    {link.linkTitle}
+                  </a>
+                  <br />
+                </Fragment>
               )
             })}
           </p>

@@ -61,10 +61,6 @@ function Avon() {
             <li>React</li>
           </ul>
           <p className="mt-3">
-            <a className="portfolioLink" href="https://avon-react.netlify.com" target="_blank" rel="noopener noreferrer">
-              User Registration React application (In Progress)
-            </a>
-            <br />
             <a className="portfolioLink"
             href="https://youravon.com/home/testing/dynamic-campaign-insider-original"
             target="_blank"
