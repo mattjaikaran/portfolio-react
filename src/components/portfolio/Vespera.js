@@ -5,7 +5,7 @@ function Vespera() {
   return (
     <div className="mt-5">
       <div className="text-center">
-        <h3>So Avant Garde</h3>
+        <h3>Vespera</h3>
       </div>
       <Arrow />
       <div className="row mt-5 mb-5">
