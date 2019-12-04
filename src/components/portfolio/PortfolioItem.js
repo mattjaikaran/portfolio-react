@@ -1,56 +1,58 @@
 import React, { Fragment } from 'react'
 import Arrow from '../Arrow'
 
+const info = {
+  title: 'Avon',
+  description: '',
+  technologies: [
+    'HTML/CSS/JavaScript',
+    'Bootstrap',
+    'Rebuilt HTML pages/UI components with dynamic ES6 JavaScript',
+    'React',
+  ],
+  carouselImg: [
+    'https://firebasestorage.googleapis.com/v0/b/portfolio-react-239cd.appspot.com/o/rewards-recognition-desktop-1.png?alt=media&token=881e8554-a839-466c-b6e6-62fb9f851530',
+    'https://firebasestorage.googleapis.com/v0/b/portfolio-react-239cd.appspot.com/o/campaign-insider-desktop-2.png?alt=media&token=323742f1-20d9-4916-a757-442bda83709c',
+    'https://firebasestorage.googleapis.com/v0/b/portfolio-react-239cd.appspot.com/o/user-registration.png?alt=media&token=c6e104d7-7b2f-408c-a4d0-5ace22b5302d',
+    'https://firebasestorage.googleapis.com/v0/b/portfolio-react-239cd.appspot.com/o/earnings-desktop.png?alt=media&token=c0d1d33f-3062-4a82-97df-86c64d932598',
+  ],
+  links: [
+    {
+      item: 1,
+      itemLink: 'https://avon-react.netlify.com',
+      linkTitle: 'User Registration React application (In Progress)'
+    },
+    {
+      item: 2,
+      itemLink: 'https://youravon.com/home/testing/dynamic-campaign-insider-original',
+      linkTitle: 'Campaign Insider'
+    },
+    {
+      item: 3,
+      itemLink: 'https://youravon.com/home/testing/dynamic-product-carousel-original',
+      linkTitle: 'Carousel'
+    },
+    {
+      item: 4,
+      itemLink: 'https://youravon.com/home/testing/dynamic-incentives',
+      linkTitle: 'Incentives'
+    },
+    {
+      item: 5,
+      itemLink: 'https://youravon.com/home/testing/dynamic-a-spot-original',
+      linkTitle: 'Slider Component'
+    },
+    {
+      item: 5,
+      itemLink: 'https://github.com/mattjaikaran/avon-react',
+      linkTitle: 'GitHub'
+    },
+  ]
+}
+
 const PortfolioItem = () => {
-  const info = {
-    title: 'Avon',
-    description: '',
-    technologies: [
-      'HTML/CSS/JavaScript',
-      'Bootstrap',
-      'Rebuilt HTML pages/UI components with dynamic ES6 JavaScript',
-      'React',
-    ],
-    carouselImg: [
-      'https://firebasestorage.googleapis.com/v0/b/portfolio-react-239cd.appspot.com/o/rewards-recognition-desktop-1.png?alt=media&token=881e8554-a839-466c-b6e6-62fb9f851530',
-      'https://firebasestorage.googleapis.com/v0/b/portfolio-react-239cd.appspot.com/o/campaign-insider-desktop-2.png?alt=media&token=323742f1-20d9-4916-a757-442bda83709c',
-      'https://firebasestorage.googleapis.com/v0/b/portfolio-react-239cd.appspot.com/o/user-registration.png?alt=media&token=c6e104d7-7b2f-408c-a4d0-5ace22b5302d',
-      'https://firebasestorage.googleapis.com/v0/b/portfolio-react-239cd.appspot.com/o/earnings-desktop.png?alt=media&token=c0d1d33f-3062-4a82-97df-86c64d932598',
-    ],
-    links: [
-      {
-        item: 1,
-        itemLink: 'https://avon-react.netlify.com',
-        linkTitle: 'User Registration React application (In Progress)'
-      },
-      {
-        item: 2,
-        itemLink: 'https://youravon.com/home/testing/dynamic-campaign-insider-original',
-        linkTitle: 'Campaign Insider'
-      },
-      {
-        item: 3,
-        itemLink: 'https://youravon.com/home/testing/dynamic-product-carousel-original',
-        linkTitle: 'Carousel'
-      },
-      {
-        item: 4,
-        itemLink: 'https://youravon.com/home/testing/dynamic-incentives',
-        linkTitle: 'Incentives'
-      },
-      {
-        item: 5,
-        itemLink: 'https://youravon.com/home/testing/dynamic-a-spot-original',
-        linkTitle: 'Slider Component'
-      },
-      {
-        item: 5,
-        itemLink: 'https://github.com/mattjaikaran/avon-react',
-        linkTitle: 'GitHub'
-      },
-    ]
-  }
   return (
+    const { title } = info
     <div className="mt-5">
       <div className="text-center">
         <h3>{title}</h3>
@@ -67,10 +69,10 @@ const PortfolioItem = () => {
                   className={index === 0 ? 'active' : null}
                   />
               ))}
-              <li data-target="#gallery" data-slide-to="0" className="active"></li>
-              <li data-target="#gallery" data-slide-to="1"></li>
-              <li data-target="#gallery" data-slide-to="2"></li>
-              <li data-target="#gallery" data-slide-to="3"></li>
+              // <li data-target="#gallery" data-slide-to="0" className="active"></li>
+              // <li data-target="#gallery" data-slide-to="1"></li>
+              // <li data-target="#gallery" data-slide-to="2"></li>
+              // <li data-target="#gallery" data-slide-to="3"></li>
             </ol>
             <div className="carousel-inner">
               <div className="carousel-item active">

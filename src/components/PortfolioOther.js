@@ -29,9 +29,9 @@ class PortfolioOther extends Component {
         link: '/piece-and-gathering'
       },
     ]
-    return items.map(item => {
+    return items.map((item, index) => {
       return (
-        <div className="portfolioItem col-md-4 col-sm-6 mb-3">
+        <div key={index} className="portfolioItem col-md-4 col-sm-6 mb-3">
           <Link to={item.link}>
             <img src={item.imgSrc} className="d-block w-100" alt="..." />
             {/* <div className="my-2">{item.title}</div> */}

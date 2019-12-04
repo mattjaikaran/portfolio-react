@@ -1,6 +1,6 @@
 import React from 'react'
 
-function About() {
+const About = () => {
   return (
     <div>
       <h1>About</h1>
@@ -8,7 +8,7 @@ function About() {
         I'm a web developer based in New York City. I code with JavaScript and mostly utilize React and NodeJS.
       </p>
       <p className="bioParagraph">
-        Aside from web development, I'm a musician. I graduated from Belmont University in Nashville, TN with a double major in Music Business and Marketing.
+        Aside from web development, I am a musician. I graduated from Belmont University in Nashville, TN with a double major in Music Business and Marketing. I previously worked with artists and creatives doing digital marketing, branding, and strategy.
       </p>
     </div>
   )
