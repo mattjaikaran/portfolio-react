@@ -10,7 +10,8 @@ function Vespera() {
       <Arrow />
       <div className="row mt-5 mb-5">
         <div className="col-md-7 text-center mb-3">
-          <div id="gallery" className="carousel slide" data-interval="false" data-ride="carousel"> <ol className="carousel-indicators">
+          <div id="gallery" className="carousel slide" data-interval="false" data-ride="carousel">
+            <ol className="carousel-indicators">
               <li data-target="#gallery" data-slide-to="0" className="active"></li>
               <li data-target="#gallery" data-slide-to="1"></li>
               <li data-target="#gallery" data-slide-to="2"></li>
